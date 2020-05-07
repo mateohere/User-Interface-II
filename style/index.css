@@ -1,1 +1,210 @@
-/* Add CSS styling here */
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0:  
+font-size: 100%;    
+vertical-align: baseline;  
+}
+/* General Styles */
+*{
+  box-sizing:border-box;
+  max-width:100%;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 20%;
+    height: 20%; 
+}
+/*header*/
+header{
+    background-color: #054A91;
+    width: 100%;
+}
+h1 {
+    color: #DBE4EE;
+    margin-left: 1%;
+    font-size: 400%;
+    padding: 1%;
+    letter-spacing: 6px;
+}
+nav .links{
+    width: 45%;
+    /* display: flex; */
+    margin-left: 5%;
+    /* justify-content: space-evenly; */
+    padding:2%;
+    
+}
+
+.links {
+    background-color: #F17300;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+    letter-spacing: 4px;;
+}
+nav a:hover{
+    color: #054A91;
+}
+
+/*picture and about me and My Projects button*/
+#box{
+    display:flex;
+    width:100%
+    height:100%;
+}
+.aboutme{
+    height: 100%;
+}
+.aboutme img{
+    width: 80%;
+    height: 100%;
+    margin: 3%;
+}
+.aboutme1{
+    display:flex;
+    flex-direction:column;
+    height: 50%;
+    margin-top: 20%;
+}
+div h2{
+    font-size: 300%;
+    color: #3E7CB1;
+    margin: 2%;
+}
+.aboutme1 a{
+    font-size: 200%;
+    color: white;
+    background-color: #F17300;
+    text-decoration: none;
+    width: 40%;
+    text-align: center;
+    margin: 2%;
+}
+.aboutme1 a:hover{
+    background-color: #DBE4EE;
+    color: #054A91;
+}
+.aboutme1 p{
+    line-height: 150%;
+    width:60%;
+    margin:2%;
+    color: #3E7CB1;
+    font-size: 20px;
+}
+/*picture gallery*/
+
+#gallery div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    height: 75%;
+}
+.titles{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#gallery2 div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    height: 75%;
+}
+.titles2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+h3{
+    color: #3E7CB1;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+/*footer and social media*/
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin: 2%;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-instagram {
+    background: #3B5998;
+    color: white;
+    margin: 2%;
+  }
+  footer{
+      display: flex;
+      justify-content: center;
+      background-color: #F17300; 
+   
+  }
+  footer h3{
+      color: white;
+      margin: 2px;
+  }
+  .last{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  }
+  .social{
+      display: flex;
+      justify-content: space-around;
+  }
+  .button {
+      background-color: #3E7CB1;
+      text-decoration: none;
+      text-align: center;
+      color: white;
+  }
+  .button:hover{
+      background-color: #054A91;
+  }
+  .button a{
+      text-decoration: none;
+      text-align: center;
+      color: white;
+  }
+  .button a:hover{
+      color: #F17300;
+  }
